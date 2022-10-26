@@ -16,7 +16,6 @@ header{
     align-items: center;
     color: #e5e7eb;
     background: #1f2937;
-    padding: 10px ;
 }
 .logo{
     font-size: 24px;
@@ -37,7 +36,6 @@ img{
 }
 .main{
     height: 500px;
-    padding: 5rem;
     display: flex;
     background: #1f2937;
     color: #f9faf8;
@@ -74,6 +72,10 @@ button{
     align-items: center;
     padding: 50px;
     color: #1f2937;
+    padding-bottom: 15vh;
+}
+.second-section h2{
+    font-size: 36px;
 }
 .box{
     display: flex;
@@ -82,5 +84,32 @@ button{
 }
 .images img{
     max-width: 200px;
-    margin: 30px;
+    border: 3px solid #3882f6 ;
+}
+.images{
+    text-align: center;
+    margin: 40px 20px;
+}
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;  
+    color:#1f2937 
+}
+.quote-author{
+    margin-left: 170px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
 }
