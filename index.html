@@ -16,20 +16,22 @@
 </head>
 <body> 
     <header class="header">
-        <div class="logo"></div>
+        <div class="logo">
+            <h1>Very nice website</h1>
+        </div>
         <nav class="navbar">
             <ul>
-                <li>Main</li>
-                <li>About</li>
-                <li>Lmao</li>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#cats">About</a></li>
+                <li><a href="#quote">Quote</a></li>
             </ul>
         </nav>
     </header>
-    <section class="main">
+    <section class="main" id="main">
         <div class="paragraph"></div>
         <img src="/img/microorganism.jpg" class="image" alt="A microorganism">
     </section>
-    <section class="second-section">
+    <section class="second-section" id="cats">
         <h2>Here, have some cats.</h2>
         <div class="box">
             <div class="images">
@@ -50,7 +52,7 @@
             </div>
         </div>
     </section>
-    <section class="quote">
+    <section class="quote" id="quote">
         <blockquote>
             “It’s Morbin’ time.”
         </blockquote>
